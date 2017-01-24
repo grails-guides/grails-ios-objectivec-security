@@ -1,14 +1,14 @@
 #import "DetailViewController.h"
 #import "Announcement.h"
-#import "AnnouncementFetcher.h"
+#import "AnnouncementUseCase.h"
 
-@interface DetailViewController () <UIWebViewDelegate, AnnouncementFetcherDelegate>
+@interface DetailViewController () <UIWebViewDelegate>
 
 @property ( nonatomic, weak) IBOutlet UILabel *titleLabel;
 @property ( nonatomic, weak) IBOutlet UIWebView *webView;
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicatorView;
 
-@property ( nonatomic, strong ) AnnouncementFetcher *fetcher;
+@property ( nonatomic, strong ) AnnouncementUseCase *useCase;
 
 @property (nonatomic, strong) Announcement *announcement;
 
@@ -33,7 +33,11 @@
     [self configureView];
     
     if ( self.announcementPrimaryKey ) {
-        [self.fetcher fetchAnnouncement:self.announcementPrimaryKey];
+        [self.useCase findAnnouncementsByPrimaryKey:self.announcementPrimaryKey
+                              withCompletionHandler:^(Announcement *announcement, NSError *error) {
+            [[self activityIndicatorView] stopAnimating];
+            self.announcement = announcement;
+        }];
     }
 }
 
@@ -56,25 +60,13 @@
     [[self activityIndicatorView] stopAnimating];
 }
 
-#pragma mark - AnnouncementFetcherDelegate
-
-- (void)announcementFetchingFailed {
-    [[self activityIndicatorView] stopAnimating];
-}
-
-- (void)announcementFetched:(Announcement *)announcement {
-    [[self activityIndicatorView] stopAnimating];
-    self.announcement = announcement;
-}
-
-
 #pragma mark - Lazy
 
-- (AnnouncementFetcher *)fetcher {
-    if(!_fetcher) {
-        _fetcher = [[AnnouncementFetcher alloc] initWithDelegate:self];
+- (AnnouncementUseCase *)useCase {
+    if(!_useCase) {
+        _useCase = [[AnnouncementUseCase alloc] init];
     }
-    return _fetcher;
+    return _useCase;
 }
 
 @end

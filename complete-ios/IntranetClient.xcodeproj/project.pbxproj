@@ -29,9 +29,20 @@
 		7C743E131E26304C0004B940 /* AnnouncementsTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C743E121E26304C0004B940 /* AnnouncementsTableViewDataSource.m */; };
 		7C743E151E2631B90004B940 /* AnnouncementsTableViewDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 7C743E141E2631B90004B940 /* AnnouncementsTableViewDelegate.h */; };
 		7C743E171E2631CA0004B940 /* AnnouncementsTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C743E161E2631CA0004B940 /* AnnouncementsTableViewDelegate.m */; };
-		7C743E191E2640F90004B940 /* AnnouncementFetcher.h in Sources */ = {isa = PBXBuildFile; fileRef = 7C743E181E2640F90004B940 /* AnnouncementFetcher.h */; };
-		7C743E1B1E26414A0004B940 /* AnnouncementFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C743E1A1E26414A0004B940 /* AnnouncementFetcher.m */; };
 		7C743E1E1E2647EE0004B940 /* announcement.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C743E1D1E2647EE0004B940 /* announcement.json */; };
+		7C7B0FB11E374D520007FE40 /* SplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B0FB01E374D520007FE40 /* SplitViewController.m */; };
+		7C7B0FB31E3750AC0007FE40 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C7B0FB21E3750AC0007FE40 /* SignIn.storyboard */; };
+		7C7B0FB61E3753850007FE40 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B0FB51E3753850007FE40 /* LoginViewController.m */; };
+		7C7B0FBA1E3757220007FE40 /* GrailsAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B0FB91E3757220007FE40 /* GrailsAuthenticationRequest.m */; };
+		7C7B0FBD1E3758880007FE40 /* GrailsUserDefaultsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B0FBC1E3758880007FE40 /* GrailsUserDefaultsStore.m */; };
+		7C7B0FC01E3759380007FE40 /* GrailsJwt.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B0FBF1E3759380007FE40 /* GrailsJwt.m */; };
+		7C7B0FC41E375D170007FE40 /* GrailsApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B0FC31E375D170007FE40 /* GrailsApi.m */; };
+		7C7B0FC71E3760A40007FE40 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B0FC61E3760A40007FE40 /* NSString+URLEncode.m */; };
+		7C7B0FCA1E3768BE0007FE40 /* GrailsRefreshRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B0FC91E3768BE0007FE40 /* GrailsRefreshRequest.m */; };
+		7C7B0FCD1E376EB60007FE40 /* GrailsJwtBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B0FCC1E376EB60007FE40 /* GrailsJwtBuilder.m */; };
+		7C7B10131E379AB10007FE40 /* CreateAnnouncementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B10121E379AB10007FE40 /* CreateAnnouncementViewController.m */; };
+		7C7B10161E379C940007FE40 /* AnnouncementUseCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B10151E379C940007FE40 /* AnnouncementUseCase.m */; };
+		7C7B101A1E379D640007FE40 /* SaveAnnouncementTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B10191E379D640007FE40 /* SaveAnnouncementTask.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,17 +91,39 @@
 		7C743E051E26237E0004B940 /* announcements.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = announcements.json; sourceTree = "<group>"; };
 		7C743E071E26280D0004B940 /* AnnouncementsFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnouncementsFetcher.h; sourceTree = "<group>"; };
 		7C743E091E2628320004B940 /* AnnouncementsFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnouncementsFetcher.m; sourceTree = "<group>"; };
-		7C743E0B1E2628AB0004B940 /* AnnouncementsFetcherDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnouncementsFetcherDelegate.h; sourceTree = "<group>"; };
 		7C743E0C1E2629FB0004B940 /* GrailsFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrailsFetcher.h; sourceTree = "<group>"; };
 		7C743E0E1E262A220004B940 /* GrailsFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrailsFetcher.m; sourceTree = "<group>"; };
 		7C743E101E26303F0004B940 /* AnnouncementsTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnouncementsTableViewDataSource.h; sourceTree = "<group>"; };
 		7C743E121E26304C0004B940 /* AnnouncementsTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnouncementsTableViewDataSource.m; sourceTree = "<group>"; };
 		7C743E141E2631B90004B940 /* AnnouncementsTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnouncementsTableViewDelegate.h; sourceTree = "<group>"; };
 		7C743E161E2631CA0004B940 /* AnnouncementsTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnouncementsTableViewDelegate.m; sourceTree = "<group>"; };
-		7C743E181E2640F90004B940 /* AnnouncementFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnouncementFetcher.h; sourceTree = "<group>"; };
-		7C743E1A1E26414A0004B940 /* AnnouncementFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnouncementFetcher.m; sourceTree = "<group>"; };
-		7C743E1C1E2643AD0004B940 /* AnnouncementFetcherDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnouncementFetcherDelegate.h; sourceTree = "<group>"; };
 		7C743E1D1E2647EE0004B940 /* announcement.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = announcement.json; sourceTree = "<group>"; };
+		7C7B0FAF1E374D1A0007FE40 /* SplitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplitViewController.h; sourceTree = "<group>"; };
+		7C7B0FB01E374D520007FE40 /* SplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitViewController.m; sourceTree = "<group>"; };
+		7C7B0FB21E3750AC0007FE40 /* SignIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		7C7B0FB41E37535E0007FE40 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		7C7B0FB51E3753850007FE40 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		7C7B0FB81E37560B0007FE40 /* GrailsAuthenticationRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrailsAuthenticationRequest.h; sourceTree = "<group>"; };
+		7C7B0FB91E3757220007FE40 /* GrailsAuthenticationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrailsAuthenticationRequest.m; sourceTree = "<group>"; };
+		7C7B0FBB1E37586F0007FE40 /* GrailsUserDefaultsStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrailsUserDefaultsStore.h; sourceTree = "<group>"; };
+		7C7B0FBC1E3758880007FE40 /* GrailsUserDefaultsStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrailsUserDefaultsStore.m; sourceTree = "<group>"; };
+		7C7B0FBE1E37592B0007FE40 /* GrailsJwt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrailsJwt.h; sourceTree = "<group>"; };
+		7C7B0FBF1E3759380007FE40 /* GrailsJwt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrailsJwt.m; sourceTree = "<group>"; };
+		7C7B0FC11E375A5F0007FE40 /* GrailsJwtStoragePr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrailsJwtStoragePr.h; sourceTree = "<group>"; };
+		7C7B0FC21E375CFE0007FE40 /* GrailsApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrailsApi.h; sourceTree = "<group>"; };
+		7C7B0FC31E375D170007FE40 /* GrailsApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrailsApi.m; sourceTree = "<group>"; };
+		7C7B0FC51E3760860007FE40 /* NSString+URLEncode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncode.h"; sourceTree = "<group>"; };
+		7C7B0FC61E3760A40007FE40 /* NSString+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncode.m"; sourceTree = "<group>"; };
+		7C7B0FC81E3768510007FE40 /* GrailsRefreshRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrailsRefreshRequest.h; sourceTree = "<group>"; };
+		7C7B0FC91E3768BE0007FE40 /* GrailsRefreshRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrailsRefreshRequest.m; sourceTree = "<group>"; };
+		7C7B0FCB1E376E8E0007FE40 /* GrailsJwtBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrailsJwtBuilder.h; sourceTree = "<group>"; };
+		7C7B0FCC1E376EB60007FE40 /* GrailsJwtBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrailsJwtBuilder.m; sourceTree = "<group>"; };
+		7C7B10111E379A880007FE40 /* CreateAnnouncementViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateAnnouncementViewController.h; sourceTree = "<group>"; };
+		7C7B10121E379AB10007FE40 /* CreateAnnouncementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAnnouncementViewController.m; sourceTree = "<group>"; };
+		7C7B10141E379C720007FE40 /* AnnouncementUseCase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnnouncementUseCase.h; sourceTree = "<group>"; };
+		7C7B10151E379C940007FE40 /* AnnouncementUseCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnouncementUseCase.m; sourceTree = "<group>"; };
+		7C7B10181E379D550007FE40 /* SaveAnnouncementTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SaveAnnouncementTask.h; sourceTree = "<group>"; };
+		7C7B10191E379D640007FE40 /* SaveAnnouncementTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveAnnouncementTask.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +174,7 @@
 		7C743DC11E253AA50004B940 /* IntranetClient */ = {
 			isa = PBXGroup;
 			children = (
+				7C7B0FB71E3755F80007FE40 /* Grails */,
 				7C743E1F1E2648AF0004B940 /* UKit */,
 				7C743DCE1E253AA50004B940 /* Main.storyboard */,
 				7C743DD11E253AA50004B940 /* Assets.xcassets */,
@@ -148,6 +182,7 @@
 				7C743DD61E253AA50004B940 /* Info.plist */,
 				7C743DC21E253AA50004B940 /* Supporting Files */,
 				7C743E201E2648B70004B940 /* Foundation */,
+				7C7B0FB21E3750AC0007FE40 /* SignIn.storyboard */,
 			);
 			path = IntranetClient;
 			sourceTree = "<group>";
@@ -193,6 +228,12 @@
 				7C743E121E26304C0004B940 /* AnnouncementsTableViewDataSource.m */,
 				7C743E141E2631B90004B940 /* AnnouncementsTableViewDelegate.h */,
 				7C743E161E2631CA0004B940 /* AnnouncementsTableViewDelegate.m */,
+				7C7B0FAF1E374D1A0007FE40 /* SplitViewController.h */,
+				7C7B0FB01E374D520007FE40 /* SplitViewController.m */,
+				7C7B0FB41E37535E0007FE40 /* LoginViewController.h */,
+				7C7B0FB51E3753850007FE40 /* LoginViewController.m */,
+				7C7B10111E379A880007FE40 /* CreateAnnouncementViewController.h */,
+				7C7B10121E379AB10007FE40 /* CreateAnnouncementViewController.m */,
 			);
 			name = UKit;
 			sourceTree = "<group>";
@@ -209,14 +250,36 @@
 				7C743E011E2540120004B940 /* ElementBuilder.m */,
 				7C743E071E26280D0004B940 /* AnnouncementsFetcher.h */,
 				7C743E091E2628320004B940 /* AnnouncementsFetcher.m */,
-				7C743E0B1E2628AB0004B940 /* AnnouncementsFetcherDelegate.h */,
 				7C743E0C1E2629FB0004B940 /* GrailsFetcher.h */,
 				7C743E0E1E262A220004B940 /* GrailsFetcher.m */,
-				7C743E181E2640F90004B940 /* AnnouncementFetcher.h */,
-				7C743E1A1E26414A0004B940 /* AnnouncementFetcher.m */,
-				7C743E1C1E2643AD0004B940 /* AnnouncementFetcherDelegate.h */,
+				7C7B10141E379C720007FE40 /* AnnouncementUseCase.h */,
+				7C7B10151E379C940007FE40 /* AnnouncementUseCase.m */,
+				7C7B10181E379D550007FE40 /* SaveAnnouncementTask.h */,
+				7C7B10191E379D640007FE40 /* SaveAnnouncementTask.m */,
 			);
 			name = Foundation;
+			sourceTree = "<group>";
+		};
+		7C7B0FB71E3755F80007FE40 /* Grails */ = {
+			isa = PBXGroup;
+			children = (
+				7C7B0FB81E37560B0007FE40 /* GrailsAuthenticationRequest.h */,
+				7C7B0FB91E3757220007FE40 /* GrailsAuthenticationRequest.m */,
+				7C7B0FBB1E37586F0007FE40 /* GrailsUserDefaultsStore.h */,
+				7C7B0FBC1E3758880007FE40 /* GrailsUserDefaultsStore.m */,
+				7C7B0FBE1E37592B0007FE40 /* GrailsJwt.h */,
+				7C7B0FBF1E3759380007FE40 /* GrailsJwt.m */,
+				7C7B0FC11E375A5F0007FE40 /* GrailsJwtStoragePr.h */,
+				7C7B0FC21E375CFE0007FE40 /* GrailsApi.h */,
+				7C7B0FC31E375D170007FE40 /* GrailsApi.m */,
+				7C7B0FC51E3760860007FE40 /* NSString+URLEncode.h */,
+				7C7B0FC61E3760A40007FE40 /* NSString+URLEncode.m */,
+				7C7B0FC81E3768510007FE40 /* GrailsRefreshRequest.h */,
+				7C7B0FC91E3768BE0007FE40 /* GrailsRefreshRequest.m */,
+				7C7B0FCB1E376E8E0007FE40 /* GrailsJwtBuilder.h */,
+				7C7B0FCC1E376EB60007FE40 /* GrailsJwtBuilder.m */,
+			);
+			name = Grails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,6 +388,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C7B0FB31E3750AC0007FE40 /* SignIn.storyboard in Resources */,
 				7C743DD51E253AA50004B940 /* LaunchScreen.storyboard in Resources */,
 				7C743DD21E253AA50004B940 /* Assets.xcassets in Resources */,
 				7C743DD01E253AA50004B940 /* Main.storyboard in Resources */,
@@ -356,18 +420,28 @@
 			files = (
 				7C743DC71E253AA50004B940 /* AppDelegate.m in Sources */,
 				7C743E111E26303F0004B940 /* AnnouncementsTableViewDataSource.h in Sources */,
-				7C743E1B1E26414A0004B940 /* AnnouncementFetcher.m in Sources */,
+				7C7B10161E379C940007FE40 /* AnnouncementUseCase.m in Sources */,
+				7C7B0FCA1E3768BE0007FE40 /* GrailsRefreshRequest.m in Sources */,
 				7C743DCA1E253AA50004B940 /* MasterViewController.m in Sources */,
+				7C7B0FC71E3760A40007FE40 /* NSString+URLEncode.m in Sources */,
+				7C7B0FB61E3753850007FE40 /* LoginViewController.m in Sources */,
+				7C7B101A1E379D640007FE40 /* SaveAnnouncementTask.m in Sources */,
 				7C743E131E26304C0004B940 /* AnnouncementsTableViewDataSource.m in Sources */,
 				7C743DFD1E253DD20004B940 /* AnnouncementBuilder.m in Sources */,
+				7C7B0FB11E374D520007FE40 /* SplitViewController.m in Sources */,
 				7C743DC41E253AA50004B940 /* main.m in Sources */,
 				7C743E0A1E2628320004B940 /* AnnouncementsFetcher.m in Sources */,
+				7C7B0FC41E375D170007FE40 /* GrailsApi.m in Sources */,
 				7C743E0F1E262A220004B940 /* GrailsFetcher.m in Sources */,
 				7C743E081E26280D0004B940 /* AnnouncementsFetcher.h in Sources */,
+				7C7B0FCD1E376EB60007FE40 /* GrailsJwtBuilder.m in Sources */,
+				7C7B0FBD1E3758880007FE40 /* GrailsUserDefaultsStore.m in Sources */,
+				7C7B0FC01E3759380007FE40 /* GrailsJwt.m in Sources */,
+				7C7B0FBA1E3757220007FE40 /* GrailsAuthenticationRequest.m in Sources */,
 				7C743E021E2540120004B940 /* ElementBuilder.m in Sources */,
 				7C743DF91E253C040004B940 /* Announcement.m in Sources */,
-				7C743E191E2640F90004B940 /* AnnouncementFetcher.h in Sources */,
 				7C743E0D1E2629FB0004B940 /* GrailsFetcher.h in Sources */,
+				7C7B10131E379AB10007FE40 /* CreateAnnouncementViewController.m in Sources */,
 				7C743E001E253FCD0004B940 /* ElementBuilder.h in Sources */,
 				7C743DCD1E253AA50004B940 /* DetailViewController.m in Sources */,
 				7C743E171E2631CA0004B940 /* AnnouncementsTableViewDelegate.m in Sources */,

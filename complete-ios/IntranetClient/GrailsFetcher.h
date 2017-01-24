@@ -13,4 +13,6 @@ static NSInteger FAST_TIME_INTERVAL = 5.0;
                                  cachePolicy:(NSURLRequestCachePolicy)cachePolicy
                              timeoutInterval:(NSTimeInterval)timeoutInterval;
 
+- (NSURLRequest *)postURLRequestWithUrlString:(NSString *)urlString
+                                     jsonData:(NSData *)data;
 @end
