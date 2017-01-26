@@ -1,6 +1,6 @@
 #import "SaveAnnouncementTask.h"
 #import "AnnouncementBuilder.h"
-#import "GrailsApi.h"
+#import <GrailsSpringSecurityRestObjc/GrailsApi.h>
 
 @interface SaveAnnouncementTask () <NSURLSessionDelegate>
 

@@ -1,5 +1,5 @@
 #import "LoginViewController.h"
-#import "GrailsApi.h"
+#import <GrailsSpringSecurityRestObjc/GrailsApi.h>
 #import "GrailsFetcher.h"
 
 @interface LoginViewController ()

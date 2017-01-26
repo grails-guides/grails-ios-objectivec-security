@@ -4,7 +4,7 @@
 #import "AnnouncementsTableViewDataSource.h"
 #import "AnnouncementsTableViewDelegate.h"
 #import "Announcement.h"
-#import "GrailsApi.h"
+#import <GrailsSpringSecurityRestObjc/GrailsApi.h>
 #import "LoginViewController.h"
 
 static NSString *kSegueShowDetail = @"showDetail";

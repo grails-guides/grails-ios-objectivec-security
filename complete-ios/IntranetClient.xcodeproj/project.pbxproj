@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2786D47DE99E9006F9556479 /* libPods-IntranetClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8A89C688DA32162C93DA126 /* libPods-IntranetClient.a */; };
+		44B5BAA1091B518EF7A1977B /* libPods-IntranetClientTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AAAD8D4F131084F4FDB4A64 /* libPods-IntranetClientTests.a */; };
 		7C743DC41E253AA50004B940 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C743DC31E253AA50004B940 /* main.m */; };
 		7C743DC71E253AA50004B940 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C743DC61E253AA50004B940 /* AppDelegate.m */; };
 		7C743DCA1E253AA50004B940 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C743DC91E253AA50004B940 /* MasterViewController.m */; };
@@ -33,16 +35,10 @@
 		7C7B0FB11E374D520007FE40 /* SplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B0FB01E374D520007FE40 /* SplitViewController.m */; };
 		7C7B0FB31E3750AC0007FE40 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C7B0FB21E3750AC0007FE40 /* SignIn.storyboard */; };
 		7C7B0FB61E3753850007FE40 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B0FB51E3753850007FE40 /* LoginViewController.m */; };
-		7C7B0FBA1E3757220007FE40 /* GrailsAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B0FB91E3757220007FE40 /* GrailsAuthenticationRequest.m */; };
-		7C7B0FBD1E3758880007FE40 /* GrailsUserDefaultsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B0FBC1E3758880007FE40 /* GrailsUserDefaultsStore.m */; };
-		7C7B0FC01E3759380007FE40 /* GrailsJwt.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B0FBF1E3759380007FE40 /* GrailsJwt.m */; };
-		7C7B0FC41E375D170007FE40 /* GrailsApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B0FC31E375D170007FE40 /* GrailsApi.m */; };
-		7C7B0FC71E3760A40007FE40 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B0FC61E3760A40007FE40 /* NSString+URLEncode.m */; };
-		7C7B0FCA1E3768BE0007FE40 /* GrailsRefreshRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B0FC91E3768BE0007FE40 /* GrailsRefreshRequest.m */; };
-		7C7B0FCD1E376EB60007FE40 /* GrailsJwtBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B0FCC1E376EB60007FE40 /* GrailsJwtBuilder.m */; };
 		7C7B10131E379AB10007FE40 /* CreateAnnouncementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B10121E379AB10007FE40 /* CreateAnnouncementViewController.m */; };
 		7C7B10161E379C940007FE40 /* AnnouncementUseCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B10151E379C940007FE40 /* AnnouncementUseCase.m */; };
 		7C7B101A1E379D640007FE40 /* SaveAnnouncementTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B10191E379D640007FE40 /* SaveAnnouncementTask.m */; };
+		F6878A44F1B67168C0D2DC2B /* libPods-IntranetClientUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22515D7D53AAE6FEF6695521 /* libPods-IntranetClientUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +58,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7C2195451E39D67400A1357E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		036F810A7DA40DE389FC3D69 /* Pods-IntranetClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntranetClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IntranetClientTests/Pods-IntranetClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		22515D7D53AAE6FEF6695521 /* libPods-IntranetClientUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IntranetClientUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DE8400A4F6021B87DE1B3E1 /* Pods-IntranetClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntranetClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IntranetClient/Pods-IntranetClient.debug.xcconfig"; sourceTree = "<group>"; };
+		701C5A497A4836E114D6EF47 /* Pods-IntranetClientUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntranetClientUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IntranetClientUITests/Pods-IntranetClientUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7C743DBF1E253AA50004B940 /* IntranetClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntranetClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C743DC31E253AA50004B940 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7C743DC51E253AA50004B940 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,27 +116,17 @@
 		7C7B0FB21E3750AC0007FE40 /* SignIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
 		7C7B0FB41E37535E0007FE40 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		7C7B0FB51E3753850007FE40 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		7C7B0FB81E37560B0007FE40 /* GrailsAuthenticationRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrailsAuthenticationRequest.h; sourceTree = "<group>"; };
-		7C7B0FB91E3757220007FE40 /* GrailsAuthenticationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrailsAuthenticationRequest.m; sourceTree = "<group>"; };
-		7C7B0FBB1E37586F0007FE40 /* GrailsUserDefaultsStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrailsUserDefaultsStore.h; sourceTree = "<group>"; };
-		7C7B0FBC1E3758880007FE40 /* GrailsUserDefaultsStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrailsUserDefaultsStore.m; sourceTree = "<group>"; };
-		7C7B0FBE1E37592B0007FE40 /* GrailsJwt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrailsJwt.h; sourceTree = "<group>"; };
-		7C7B0FBF1E3759380007FE40 /* GrailsJwt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrailsJwt.m; sourceTree = "<group>"; };
-		7C7B0FC11E375A5F0007FE40 /* GrailsJwtStoragePr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrailsJwtStoragePr.h; sourceTree = "<group>"; };
-		7C7B0FC21E375CFE0007FE40 /* GrailsApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrailsApi.h; sourceTree = "<group>"; };
-		7C7B0FC31E375D170007FE40 /* GrailsApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrailsApi.m; sourceTree = "<group>"; };
-		7C7B0FC51E3760860007FE40 /* NSString+URLEncode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncode.h"; sourceTree = "<group>"; };
-		7C7B0FC61E3760A40007FE40 /* NSString+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncode.m"; sourceTree = "<group>"; };
-		7C7B0FC81E3768510007FE40 /* GrailsRefreshRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrailsRefreshRequest.h; sourceTree = "<group>"; };
-		7C7B0FC91E3768BE0007FE40 /* GrailsRefreshRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrailsRefreshRequest.m; sourceTree = "<group>"; };
-		7C7B0FCB1E376E8E0007FE40 /* GrailsJwtBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrailsJwtBuilder.h; sourceTree = "<group>"; };
-		7C7B0FCC1E376EB60007FE40 /* GrailsJwtBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrailsJwtBuilder.m; sourceTree = "<group>"; };
 		7C7B10111E379A880007FE40 /* CreateAnnouncementViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateAnnouncementViewController.h; sourceTree = "<group>"; };
 		7C7B10121E379AB10007FE40 /* CreateAnnouncementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAnnouncementViewController.m; sourceTree = "<group>"; };
 		7C7B10141E379C720007FE40 /* AnnouncementUseCase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnnouncementUseCase.h; sourceTree = "<group>"; };
 		7C7B10151E379C940007FE40 /* AnnouncementUseCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnouncementUseCase.m; sourceTree = "<group>"; };
 		7C7B10181E379D550007FE40 /* SaveAnnouncementTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SaveAnnouncementTask.h; sourceTree = "<group>"; };
 		7C7B10191E379D640007FE40 /* SaveAnnouncementTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveAnnouncementTask.m; sourceTree = "<group>"; };
+		9AAAD8D4F131084F4FDB4A64 /* libPods-IntranetClientTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IntranetClientTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F961EDFF7B5DE1BE95DFCC /* Pods-IntranetClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntranetClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-IntranetClient/Pods-IntranetClient.release.xcconfig"; sourceTree = "<group>"; };
+		B4C0AE721DB8C75C24BAC047 /* Pods-IntranetClientUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntranetClientUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IntranetClientUITests/Pods-IntranetClientUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BFF30EE2657F130BE0B74658 /* Pods-IntranetClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntranetClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IntranetClientTests/Pods-IntranetClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		E8A89C688DA32162C93DA126 /* libPods-IntranetClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IntranetClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2786D47DE99E9006F9556479 /* libPods-IntranetClient.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44B5BAA1091B518EF7A1977B /* libPods-IntranetClientTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6878A44F1B67168C0D2DC2B /* libPods-IntranetClientUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +164,8 @@
 				7C743DDE1E253AA50004B940 /* IntranetClientTests */,
 				7C743DE91E253AA50004B940 /* IntranetClientUITests */,
 				7C743DC01E253AA50004B940 /* Products */,
+				E7F359D03F551BEDF22CBF48 /* Pods */,
+				B75658C3BAA7C45A1A269E2A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,7 +182,6 @@
 		7C743DC11E253AA50004B940 /* IntranetClient */ = {
 			isa = PBXGroup;
 			children = (
-				7C7B0FB71E3755F80007FE40 /* Grails */,
 				7C743E1F1E2648AF0004B940 /* UKit */,
 				7C743DCE1E253AA50004B940 /* Main.storyboard */,
 				7C743DD11E253AA50004B940 /* Assets.xcassets */,
@@ -260,26 +267,27 @@
 			name = Foundation;
 			sourceTree = "<group>";
 		};
-		7C7B0FB71E3755F80007FE40 /* Grails */ = {
+		B75658C3BAA7C45A1A269E2A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7C7B0FB81E37560B0007FE40 /* GrailsAuthenticationRequest.h */,
-				7C7B0FB91E3757220007FE40 /* GrailsAuthenticationRequest.m */,
-				7C7B0FBB1E37586F0007FE40 /* GrailsUserDefaultsStore.h */,
-				7C7B0FBC1E3758880007FE40 /* GrailsUserDefaultsStore.m */,
-				7C7B0FBE1E37592B0007FE40 /* GrailsJwt.h */,
-				7C7B0FBF1E3759380007FE40 /* GrailsJwt.m */,
-				7C7B0FC11E375A5F0007FE40 /* GrailsJwtStoragePr.h */,
-				7C7B0FC21E375CFE0007FE40 /* GrailsApi.h */,
-				7C7B0FC31E375D170007FE40 /* GrailsApi.m */,
-				7C7B0FC51E3760860007FE40 /* NSString+URLEncode.h */,
-				7C7B0FC61E3760A40007FE40 /* NSString+URLEncode.m */,
-				7C7B0FC81E3768510007FE40 /* GrailsRefreshRequest.h */,
-				7C7B0FC91E3768BE0007FE40 /* GrailsRefreshRequest.m */,
-				7C7B0FCB1E376E8E0007FE40 /* GrailsJwtBuilder.h */,
-				7C7B0FCC1E376EB60007FE40 /* GrailsJwtBuilder.m */,
+				E8A89C688DA32162C93DA126 /* libPods-IntranetClient.a */,
+				9AAAD8D4F131084F4FDB4A64 /* libPods-IntranetClientTests.a */,
+				22515D7D53AAE6FEF6695521 /* libPods-IntranetClientUITests.a */,
 			);
-			name = Grails;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7F359D03F551BEDF22CBF48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DE8400A4F6021B87DE1B3E1 /* Pods-IntranetClient.debug.xcconfig */,
+				A9F961EDFF7B5DE1BE95DFCC /* Pods-IntranetClient.release.xcconfig */,
+				036F810A7DA40DE389FC3D69 /* Pods-IntranetClientTests.debug.xcconfig */,
+				BFF30EE2657F130BE0B74658 /* Pods-IntranetClientTests.release.xcconfig */,
+				701C5A497A4836E114D6EF47 /* Pods-IntranetClientUITests.debug.xcconfig */,
+				B4C0AE721DB8C75C24BAC047 /* Pods-IntranetClientUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,9 +297,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C743DEF1E253AA50004B940 /* Build configuration list for PBXNativeTarget "IntranetClient" */;
 			buildPhases = (
+				1E5B3DB7BE2F1E98BB3F15CB /* [CP] Check Pods Manifest.lock */,
 				7C743DBB1E253AA50004B940 /* Sources */,
 				7C743DBC1E253AA50004B940 /* Frameworks */,
 				7C743DBD1E253AA50004B940 /* Resources */,
+				7C2195451E39D67400A1357E /* Embed Frameworks */,
+				01FB9583AC71A0073CD4A105 /* [CP] Embed Pods Frameworks */,
+				E4EA51AEE193D59D9A14D9EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -306,9 +318,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C743DF21E253AA50004B940 /* Build configuration list for PBXNativeTarget "IntranetClientTests" */;
 			buildPhases = (
+				C1A2FABB9ED6BAE53145783A /* [CP] Check Pods Manifest.lock */,
 				7C743DD71E253AA50004B940 /* Sources */,
 				7C743DD81E253AA50004B940 /* Frameworks */,
 				7C743DD91E253AA50004B940 /* Resources */,
+				E0656088339BB3193A1C95C4 /* [CP] Embed Pods Frameworks */,
+				583B8692316C760B4F6FD44D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -324,9 +339,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C743DF51E253AA50004B940 /* Build configuration list for PBXNativeTarget "IntranetClientUITests" */;
 			buildPhases = (
+				ABECAA85F235FED42F522779 /* [CP] Check Pods Manifest.lock */,
 				7C743DE21E253AA50004B940 /* Sources */,
 				7C743DE31E253AA50004B940 /* Frameworks */,
 				7C743DE41E253AA50004B940 /* Resources */,
+				B1B61E242EF081C9CCA30AD6 /* [CP] Embed Pods Frameworks */,
+				EBE5F1330BF0EC5B1B854C5B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -413,6 +431,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01FB9583AC71A0073CD4A105 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntranetClient/Pods-IntranetClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E5B3DB7BE2F1E98BB3F15CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		583B8692316C760B4F6FD44D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntranetClientTests/Pods-IntranetClientTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABECAA85F235FED42F522779 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1B61E242EF081C9CCA30AD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntranetClientUITests/Pods-IntranetClientUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1A2FABB9ED6BAE53145783A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E0656088339BB3193A1C95C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntranetClientTests/Pods-IntranetClientTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4EA51AEE193D59D9A14D9EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntranetClient/Pods-IntranetClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBE5F1330BF0EC5B1B854C5B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntranetClientUITests/Pods-IntranetClientUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7C743DBB1E253AA50004B940 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -421,9 +577,7 @@
 				7C743DC71E253AA50004B940 /* AppDelegate.m in Sources */,
 				7C743E111E26303F0004B940 /* AnnouncementsTableViewDataSource.h in Sources */,
 				7C7B10161E379C940007FE40 /* AnnouncementUseCase.m in Sources */,
-				7C7B0FCA1E3768BE0007FE40 /* GrailsRefreshRequest.m in Sources */,
 				7C743DCA1E253AA50004B940 /* MasterViewController.m in Sources */,
-				7C7B0FC71E3760A40007FE40 /* NSString+URLEncode.m in Sources */,
 				7C7B0FB61E3753850007FE40 /* LoginViewController.m in Sources */,
 				7C7B101A1E379D640007FE40 /* SaveAnnouncementTask.m in Sources */,
 				7C743E131E26304C0004B940 /* AnnouncementsTableViewDataSource.m in Sources */,
@@ -431,13 +585,8 @@
 				7C7B0FB11E374D520007FE40 /* SplitViewController.m in Sources */,
 				7C743DC41E253AA50004B940 /* main.m in Sources */,
 				7C743E0A1E2628320004B940 /* AnnouncementsFetcher.m in Sources */,
-				7C7B0FC41E375D170007FE40 /* GrailsApi.m in Sources */,
 				7C743E0F1E262A220004B940 /* GrailsFetcher.m in Sources */,
 				7C743E081E26280D0004B940 /* AnnouncementsFetcher.h in Sources */,
-				7C7B0FCD1E376EB60007FE40 /* GrailsJwtBuilder.m in Sources */,
-				7C7B0FBD1E3758880007FE40 /* GrailsUserDefaultsStore.m in Sources */,
-				7C7B0FC01E3759380007FE40 /* GrailsJwt.m in Sources */,
-				7C7B0FBA1E3757220007FE40 /* GrailsAuthenticationRequest.m in Sources */,
 				7C743E021E2540120004B940 /* ElementBuilder.m in Sources */,
 				7C743DF91E253C040004B940 /* Announcement.m in Sources */,
 				7C743E0D1E2629FB0004B940 /* GrailsFetcher.h in Sources */,
@@ -592,6 +741,7 @@
 		};
 		7C743DF01E253AA50004B940 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DE8400A4F6021B87DE1B3E1 /* Pods-IntranetClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IntranetClient/Info.plist;
@@ -603,6 +753,7 @@
 		};
 		7C743DF11E253AA50004B940 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9F961EDFF7B5DE1BE95DFCC /* Pods-IntranetClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IntranetClient/Info.plist;
@@ -614,6 +765,7 @@
 		};
 		7C743DF31E253AA50004B940 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 036F810A7DA40DE389FC3D69 /* Pods-IntranetClientTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = IntranetClientTests/Info.plist;
@@ -626,6 +778,7 @@
 		};
 		7C743DF41E253AA50004B940 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFF30EE2657F130BE0B74658 /* Pods-IntranetClientTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = IntranetClientTests/Info.plist;
@@ -638,6 +791,7 @@
 		};
 		7C743DF61E253AA50004B940 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 701C5A497A4836E114D6EF47 /* Pods-IntranetClientUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = IntranetClientUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -649,6 +803,7 @@
 		};
 		7C743DF71E253AA50004B940 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4C0AE721DB8C75C24BAC047 /* Pods-IntranetClientUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = IntranetClientUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

@@ -9,3 +9,5 @@ build/
 .project
 .settings
 .classpath
+/complete-ios/Pods
+/complete-ios/Podfile.lock

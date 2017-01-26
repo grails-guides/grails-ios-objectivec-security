@@ -1,7 +1,7 @@
 #import "AnnouncementUseCase.h"
 #import "SaveAnnouncementTask.h"
 #import "Announcement.h"
-#import "GrailsApi.h"
+#import <GrailsSpringSecurityRestObjc/GrailsApi.h>
 #import "GrailsFetcher.h"
 #import "AnnouncementsFetcher.h"
 

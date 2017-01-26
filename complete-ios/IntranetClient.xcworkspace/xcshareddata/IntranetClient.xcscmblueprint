@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "159A5A258F45C774BE09008B5FB8E9D24645DE42",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4FD2183D548AD8A82EE281C8832C8317AFA50806" : 9223372036854775807,
+    "159A5A258F45C774BE09008B5FB8E9D24645DE42" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EA78267A-B656-4474-8E44-D071DEA16719",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4FD2183D548AD8A82EE281C8832C8317AFA50806" : "GrailsSpringSecurityRestObjc\/",
+    "159A5A258F45C774BE09008B5FB8E9D24645DE42" : "grails-ios-objectivec-security\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "IntranetClient",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "complete-ios\/IntranetClient.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:grails-guides\/grails-ios-objectivec-security.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "159A5A258F45C774BE09008B5FB8E9D24645DE42"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:grails\/grails-spring-security-core-rest-objc.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4FD2183D548AD8A82EE281C8832C8317AFA50806"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 #import "SplitViewController.h"
-#import "GrailsApi.h" 
+#import <GrailsSpringSecurityRestObjc/GrailsApi.h>
 #import "LoginViewController.h"
 
 @interface SplitViewController ()

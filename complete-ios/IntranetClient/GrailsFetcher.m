@@ -1,5 +1,5 @@
 #import "GrailsFetcher.h"
-#import "GrailsApi.h"
+#import <GrailsSpringSecurityRestObjc/GrailsApi.h>
 
 @interface GrailsFetcher () <NSURLSessionDelegate>
 
