@@ -1,8 +1,8 @@
 package intranet.backend
 
 import grails.plugins.rest.client.RestBuilder
-import grails.test.mixin.integration.Integration
-import grails.transaction.Rollback
+import grails.testing.mixin.integration.Integration
+import grails.gorm.transactions.*
 import groovy.json.JsonOutput
 import org.apache.commons.collections.Closure
 import org.springframework.beans.factory.annotation.Value
